@@ -57,7 +57,7 @@ class Store:
         print(f"total value: {self.inventory.get_total_value()}")
         self.inventory.show_all_products()
 
-my_store = Store("Tech World")
+my_store = Store("World of Tech")
 
 for i in range(3):
     my_store.add_new_product()
