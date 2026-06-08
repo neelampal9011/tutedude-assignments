@@ -2,6 +2,8 @@ Streamlit Basics App
 
 This project demonstrates a basic Streamlit application, managed using [uv](https://docs.astral.sh/uv/) as the Python package manager.
 
+This project uses uv for fast and reliable dependency management. 
+
 Install uv (if you don't have it installed):
 Refer to the official [uv Installation Documentation](https://docs.astral.sh/uv/getting-started/installation/) for installation commands.
 
