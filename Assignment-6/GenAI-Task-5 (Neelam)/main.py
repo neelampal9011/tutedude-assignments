@@ -1,6 +1,5 @@
 cart = []
 total = 0
-
 while True:
     user_input = input("Enter price (or 'q' to quit): ")
     if user_input.lower() == 'q':

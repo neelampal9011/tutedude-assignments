@@ -1,4 +1,3 @@
-# Product dictionary
 prices = {
     "Mouse": 500,
     "Keyboard": 800,
@@ -15,15 +14,13 @@ total = 0
 count = 0
 for product, price in prices.items():
     if discount > 90:
-        discount = 90
+        discount = 90      #max discount is 90% (additional logic)
     discounted_price = price - (price * discount / 100)
     f.write(product + " | " + str(price) + " | " + str(discounted_price) + "\n")
 
     total += discounted_price
     count += 1
 
-# Summary
-# average = total / count
 f.write("total items: " + str(count) + "\n")
 f.write("average discounted price: " + str(total/count) + "\n")
 

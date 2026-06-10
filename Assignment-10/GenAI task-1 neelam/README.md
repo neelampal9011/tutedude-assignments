@@ -1,4 +1,4 @@
-This project is about numpy array creation and its properties, managed using [uv](https://docs.astral.sh/uv/) as the Python package manager.
+This project is about pandas series and operations on it, managed using [uv](https://docs.astral.sh/uv/) as the Python package manager.
 
 Install uv (if you don't have it installed):
 Refer to the official [uv Installation Documentation](https://docs.astral.sh/uv/getting-started/installation/) for installation commands.
