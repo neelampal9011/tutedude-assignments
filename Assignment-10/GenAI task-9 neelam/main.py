@@ -14,4 +14,3 @@ print("average daily revenue:", avg_revenue)
 highest_day = df.loc[df['Revenue'].idxmax()]
 print("day with highest revenue:", highest_day)
 print("days where Revenue > Average:", df[df['Revenue'] > avg_revenue])
-df.plot(x='Day', y='Revenue', kind='line', title='Revenue vs Day')

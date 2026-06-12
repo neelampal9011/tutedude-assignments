@@ -1,17 +1,10 @@
 [project]
-name = "genai-task-8-neelam"
+name = "tutedude-assignments"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "jupyter>=1.1.1",
     "matplotlib>=3.10.9",
-    "numpy>=2.4.6",
     "pandas>=3.0.3",
-]
-
-[dependency-groups]
-dev = [
-    "ipykernel>=7.3.0",
 ]
