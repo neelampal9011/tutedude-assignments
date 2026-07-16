@@ -1,3 +1,4 @@
+from pandas import plotting
 import pandas as pd
 
 sales = {
